@@ -8,7 +8,7 @@ while True:
 matriz =[]
 pares=0
 for i in range(a1):
-    aletorio = random.randint(1,101)
+    aletorio = random.randint(1,100)
     matriz.append(aletorio)
     print(aletorio)
     if aletorio % 2 == 0:
